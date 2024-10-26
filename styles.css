@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #121212;
+}
+
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+#landing {
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#about, #education, #skills, #contact {
+    background-color: #1c1c1c;
+    margin: 20px 0;
+    padding: 40px;
+    border-radius: 8px;
+}
+.profile-photo {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 3px solid #ddd; 
+}
+ul, ol {
+    text-align: left; 
+    list-style-position: inside; 
+}
+
+li {
+    text-align: left; 
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Change color on hover */
+    transform: scale(1.1); /* Slightly scale up on hover */
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Add padding for background visibility */
+    border-radius: 5px; /* Optional: Rounded corners */
+    transition: color 0.3s ease, transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+nav ul li a:hover {
+    color: white; /* Change text color on hover */
+    background-color: #ffcc00; /* Background color on hover */
+    transform: scale(1.1); /* Scale up slightly on hover */
+}
+html {
+    scroll-behavior: smooth;
+}
+
